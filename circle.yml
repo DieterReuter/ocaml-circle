@@ -11,3 +11,5 @@ test:
   override:
     - ocaml -version
     - opam --version
+    - docker version
+    - docker info
