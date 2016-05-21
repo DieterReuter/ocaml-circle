@@ -8,5 +8,6 @@ dependencies:
     - sudo apt-get install -y ocaml opam
 
 test:
-  - ocaml -version
-  - opam --version
+  override:
+    - ocaml -version
+    - opam --version
